@@ -1,15 +1,15 @@
 @import "./reset";
 
 .tara-container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 
   @media screen and (max-width: 1024px) {
-    width: 90%;
+    width: 93%;
   }
 
   @media screen and (max-width: 720px) {
-    width: 95%;
+    width: 96%;
   }
 }
 

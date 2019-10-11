@@ -139,19 +139,19 @@ a {
 }
 
 .tara-container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
   .tara-container {
-    width: 90%;
+    width: 93%;
   }
 }
 
 @media screen and (max-width: 720px) {
   .tara-container {
-    width: 95%;
+    width: 96%;
   }
 }
 
