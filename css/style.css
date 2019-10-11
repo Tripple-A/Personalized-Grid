@@ -1,22 +1,32 @@
 .tara-header {
   background-color: #343a40;
-  padding: 0.7rem;
-  color: white;
+  color: #fff;
+}
+
+.tara-nav {
+  display: flex;
+  align-items: center;
+  padding: 2vh 0;
   font-size: 1.5rem;
 }
 
-.tara-header .brand {
-  display: flex;
-  text-align: center;
+.tara-nav .brand {
+  margin-left: 2vw;
 }
 
-.tara-header .fa-camera {
-  padding-left: 40%;
-  padding-right: 2%;
+.tara-nav .brand .brand-text {
+  padding: 0.5rem 1.2rem;
 }
 
-.tara-header .bars {
-  text-align: center;
+.tara-nav .bars {
+  margin-left: auto;
+  margin-right: 2vw;
+}
+
+.tara-nav .bars i {
+  border: 1px solid #666;
+  padding: 0.5rem 1.2rem;
+  border-radius: 3px;
 }
 
 .page-intro {
@@ -41,12 +51,28 @@
   margin-bottom: 1.5rem;
   margin-top: 3rem;
   color: white;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 720px) {
+  .page-intro .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .page-intro .buttons .btn1,
+  .page-intro .buttons .btn2 {
+    margin-bottom: 0.5rem;
+  }
 }
 
 .page-intro .buttons .btn1,
 .page-intro .buttons .btn2 {
   border-radius: 5px;
-  padding: 1rem;
+  padding: 0.7rem 1.5rem;
+  margin-right: 0.5rem;
 }
 
 .page-intro .buttons .btn1 {

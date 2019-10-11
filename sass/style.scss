@@ -1,21 +1,31 @@
 .tara-header {
   background-color: #343a40;
-  padding: 0.7rem;
-  color: white;
+  color: #fff;
+}
+
+.tara-nav {
+  display: flex;
+  align-items: center;
+  padding: 2vh 0;
   font-size: 1.5rem;
 
   .brand {
-    display: flex;
-    text-align: center;
-  }
+    margin-left: 2vw;
 
-  .fa-camera {
-    padding-left: 40%;
-    padding-right: 2%;
+    .brand-text {
+      padding: 0.5rem 1.2rem;
+    }
   }
 
   .bars {
-    text-align: center;
+    margin-left: auto;
+    margin-right: 2vw;
+
+    i {
+      border: 1px solid #666;
+      padding: 0.5rem 1.2rem;
+      border-radius: 3px;
+    }
   }
 }
 
@@ -40,11 +50,25 @@
     margin-bottom: 1.5rem;
     margin-top: 3rem;
     color: white;
+    display: flex;
+    justify-content: center;
+
+    @media screen and (max-width: 720px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .btn1,
+      .btn2 {
+        margin-bottom: 0.5rem;
+      }
+    }
 
     .btn1,
     .btn2 {
       border-radius: 5px;
-      padding: 1rem;
+      padding: 0.7rem 1.5rem;
+      margin-right: 0.5rem;
     }
 
     .btn1 {
