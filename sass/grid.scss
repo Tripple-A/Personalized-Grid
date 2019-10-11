@@ -1,0 +1,71 @@
+@import "./reset";
+
+.tara-container {
+  width: 80%;
+  margin: 0 auto;
+
+  @media screen and (max-width: 1024px) {
+    width: 90%;
+  }
+
+  @media screen and (max-width: 720px) {
+    width: 95%;
+  }
+}
+
+.tara-row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+
+  @media screen and (max-width: 720px) {
+    grid-template-columns: 1fr;
+  }
+
+  .tara-col-1 {
+    grid-column: span 1;
+  }
+
+  .tara-col-2 {
+    grid-column: span 2;
+  }
+
+  .tara-col-3 {
+    grid-column: span 3;
+  }
+
+  .tara-col-4 {
+    grid-column: span 4;
+  }
+
+  .tara-col-5 {
+    grid-column: span 5;
+  }
+
+  .tara-col-6 {
+    grid-column: span 6;
+  }
+
+  .tara-col-7 {
+    grid-column: span 7;
+  }
+
+  .tara-col-8 {
+    grid-column: span 8;
+  }
+
+  .tara-col-9 {
+    grid-column: span 9;
+  }
+
+  .tara-col-10 {
+    grid-column: span 10;
+  }
+
+  .tara-col-11 {
+    grid-column: span 11;
+  }
+
+  .tara-col-12 {
+    grid-column: span 12;
+  }
+}
