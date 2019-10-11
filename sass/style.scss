@@ -20,3 +20,59 @@
 
     
 }
+
+.page-intro{
+    text-align: center;
+    padding-top:5%;
+    padding-bottom:10%;
+    background-color: white;
+
+    h1{
+        font-size: 34px;
+        font-weight:500;
+    }
+
+    p{
+        color:#6C757D;
+        line-height: 1.2;
+        font-size: 25px
+    }
+
+   .buttons{
+margin-bottom: 1.5rem;
+    margin-top:3rem;
+    color:white;
+
+
+       .btn1 , .btn2{
+border-radius: 5px;
+padding:1rem;
+
+       }
+
+       .btn1{
+           background-color: #007BFF
+       }
+
+       .btn2{
+           background-color: #6C757D
+       }
+   } 
+}
+
+.tara-footer{
+padding:4.5rem;
+color:#6C757D;
+font-size:18px;
+background-color: white;
+
+a{
+    color:#007BFF;
+}
+
+.right-footer{
+  .span{
+      padding-bottom:0.5rem;
+  }  
+}
+}

@@ -12,4 +12,38 @@
   .tara-header .bars {
     text-align: center; }
 
+.page-intro {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  background-color: white; }
+  .page-intro h1 {
+    font-size: 34px;
+    font-weight: 500; }
+  .page-intro p {
+    color: #6C757D;
+    line-height: 1.2;
+    font-size: 25px; }
+  .page-intro .buttons {
+    margin-bottom: 1.5rem;
+    margin-top: 3rem;
+    color: white; }
+    .page-intro .buttons .btn1, .page-intro .buttons .btn2 {
+      border-radius: 5px;
+      padding: 1rem; }
+    .page-intro .buttons .btn1 {
+      background-color: #007BFF; }
+    .page-intro .buttons .btn2 {
+      background-color: #6C757D; }
+
+.tara-footer {
+  padding: 4.5rem;
+  color: #6C757D;
+  font-size: 18px;
+  background-color: white; }
+  .tara-footer a {
+    color: #007BFF; }
+  .tara-footer .right-footer .span {
+    padding-bottom: 0.5rem; }
+
 /*# sourceMappingURL=style.css.map */
