@@ -213,3 +213,7 @@ a {
 .tara-row .tara-col-12 {
   grid-column: span 12;
 }
+
+img {
+  width: 100%;
+}
