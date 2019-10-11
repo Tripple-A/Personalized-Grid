@@ -1,110 +1,78 @@
 .tara-header {
   background-color: #343a40;
-  color: #fff;
-}
+  color: #fff; }
 
 .tara-nav {
   display: flex;
   align-items: center;
   padding: 2vh 0;
-  font-size: 1.5rem;
-}
-
-.tara-nav .brand {
-  margin-left: 2vw;
-}
-
-.tara-nav .brand .brand-text {
-  padding: 0.5rem 1.2rem;
-}
-
-.tara-nav .bars {
-  margin-left: auto;
-  margin-right: 2vw;
-}
-
-.tara-nav .bars i {
-  border: 1px solid #666;
-  padding: 0.5rem 1.2rem;
-  border-radius: 3px;
-}
+  font-size: 1.5rem; }
+  .tara-nav .brand {
+    margin-left: 2vw; }
+    .tara-nav .brand .brand-text {
+      padding: 0.5rem 1.2rem; }
+  .tara-nav .bars {
+    margin-left: auto;
+    margin-right: 2vw; }
+    .tara-nav .bars i {
+      border: 1px solid #666;
+      padding: 0.5rem 1.2rem;
+      border-radius: 3px; }
 
 .page-intro {
   text-align: center;
   padding-top: 5%;
   padding-bottom: 10%;
-  background-color: white;
-}
-
-.page-intro h1 {
-  font-size: 34px;
-  font-weight: 500;
-}
-
-.page-intro p {
-  color: #6c757d;
-  line-height: 1.2;
-  font-size: 25px;
-}
-
-.page-intro .buttons {
-  margin-bottom: 1.5rem;
-  margin-top: 3rem;
-  color: white;
-  display: flex;
-  justify-content: center;
-}
-
-@media screen and (max-width: 720px) {
+  background-color: white; }
+  .page-intro h1 {
+    font-size: 34px;
+    font-weight: 500; }
+  .page-intro p {
+    color: #6c757d;
+    line-height: 1.2;
+    font-size: 25px; }
   .page-intro .buttons {
+    margin-bottom: 1.5rem;
+    margin-top: 3rem;
+    color: white;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .page-intro .buttons .btn1,
-  .page-intro .buttons .btn2 {
-    margin-bottom: 0.5rem;
-  }
-}
-
-.page-intro .buttons .btn1,
-.page-intro .buttons .btn2 {
-  border-radius: 5px;
-  padding: 0.7rem 1.5rem;
-  margin-right: 0.5rem;
-}
-
-.page-intro .buttons .btn1 {
-  background-color: #007bff;
-}
-
-.page-intro .buttons .btn1:hover {
-  background-color: #003e80;
-}
-
-.page-intro .buttons .btn2 {
-  background-color: #6c757d;
-}
-
-.page-intro .buttons .btn2:hover {
-  background-color: #313539;
-}
+    justify-content: center; }
+    @media screen and (max-width: 720px) {
+      .page-intro .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+        .page-intro .buttons .btn1,
+        .page-intro .buttons .btn2 {
+          margin-bottom: 0.5rem; } }
+    .page-intro .buttons .btn1,
+    .page-intro .buttons .btn2 {
+      border-radius: 5px;
+      padding: 0.7rem 1.5rem;
+      margin-right: 0.5rem; }
+    .page-intro .buttons .btn1 {
+      background-color: #007bff; }
+      .page-intro .buttons .btn1:hover {
+        background-color: #003e80; }
+    .page-intro .buttons .btn2 {
+      background-color: #6c757d; }
+      .page-intro .buttons .btn2:hover {
+        background-color: #313539; }
 
 .tara-footer {
   padding: 4.5rem;
+  padding-left: 2vw;
   color: #6c757d;
   font-size: 18px;
-  background-color: white;
-}
-
-.tara-footer a {
-  color: #007bff;
-}
-
-.tara-footer .right-footer .span {
-  padding-bottom: 0.5rem;
-}
+  background-color: white; }
+  .tara-footer a {
+    color: #007bff; }
+  @media screen and (max-width: 1024px) {
+    .tara-footer .right-footer {
+      margin-left: 2%;
+      font-size: 15px; } }
+  .tara-footer .right-footer .span {
+    padding-bottom: 0.5rem; }
 
 .tara-card {
   border-radius: 5px;
@@ -112,54 +80,40 @@
   box-shadow: 1px 2px rgba(136, 136, 136, 0.4);
   display: flex;
   flex-direction: column;
-  padding-bottom: 2vh;
-}
-
-.tara-card img {
-  border-top-right-radius: 3px;
-  border-top-left-radius: 3px;
-}
-
-.tara-card p {
-  padding: 0.8rem;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #1a1a1a;
-}
-
-.tara-card div {
-  padding: 0.4rem 0.5rem;
-}
-
-.tara-card div div {
-  float: left;
-}
-
-.tara-card div span {
-  vertical-align: middle;
-  float: right;
-  color: #333;
-}
+  padding-bottom: 2vh; }
+  .tara-card img {
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px; }
+  .tara-card p {
+    padding: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1a1a1a; }
+  .tara-card div {
+    padding: 0.4rem 0.5rem; }
+    .tara-card div div {
+      float: left; }
+    .tara-card div span {
+      vertical-align: middle;
+      float: right;
+      color: #333333; }
 
 .btn {
   padding: 0.4rem 0.6rem;
   border-radius: 3px;
   border: 1px solid #777;
   color: #787878;
-  font-size: 0.9rem;
-}
-
-.btn:hover {
-  background-color: #787878;
-  color: #fff;
-}
+  font-size: 0.9rem; }
+  .btn:hover {
+    background-color: #787878;
+    color: #fff; }
 
 .btn-left {
   border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
+  border-bottom-right-radius: 0; }
 
 .btn-right {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  margin-left: -1px;
-}
+  margin-left: -1px; }
+
+/*# sourceMappingURL=style.css.map */
