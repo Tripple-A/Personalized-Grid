@@ -158,6 +158,7 @@ a {
 .tara-row {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  grid-gap: 2vw;
 }
 
 @media screen and (max-width: 720px) {
