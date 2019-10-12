@@ -34,6 +34,10 @@
   padding-top: 5%;
   padding-bottom: 10%;
   background-color: white;
+  font-size:12px;
+  line-height: 1.6;
+
+  
 
   h1 {
     font-size: 34px;
@@ -42,8 +46,8 @@
 
   p {
     color: #6c757d;
-    line-height: 1.2;
-    font-size: 25px;
+    line-height: 1.6;
+    font-size: 18px;
   }
 
   .buttons {
@@ -52,17 +56,18 @@
     color: white;
     display: flex;
     justify-content: center;
+    font-size:16px;
+
 
     @media screen and (max-width: 720px) {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
 
       .btn1,
       .btn2 {
         margin-bottom: 0.5rem;
       }
     }
+
+    
 
     .btn1,
     .btn2 {
@@ -96,25 +101,57 @@
   font-size: 18px;
   background-color: white;
 
+  
+
   a {
     color: #007bff;
   }
 
-  .right-footer {
+  .bottom-footer{
+      padding-left:7%;
+      @media screen and (max-width: 1024px){
+          padding-left:2% ;
+      }
+  }
 
-    @media screen and (max-width: 1024px){
-       margin-left:2%;
-       font-size:15px
-    }
-    @media screen and (max-width: 720px){
+  .top-footer{
+     display:flex;
+
+      .div1{
+          padding-left:8.6%;
+          padding-bottom:7px;
+          width:88%;
+
+          @media screen and (max-width: 1024px){
+              padding-left:2%;
+              width:92.5%;
+              
+          }
+
+          @media screen and (max-width: 720px){
+            
+        }
+
+         
+      }
+.div2{
+    margin-right:-2vw;
+
+    @media screen and (max-width: 770px){
+       width:20%;
+       margin-right:-10vw
         
     }
-    .span {
-      padding-bottom: 0.5rem;
+
+    @media screen and (max-width: 720px){
+        width:30%;
+        margin-right:-15vw
     }
-    
+}
+      
   }
 }
+  
 
 .tara-card {
   border-radius: 5px;
@@ -173,3 +210,4 @@
   border-bottom-left-radius: 0;
   margin-left: -1px;
 }
+
