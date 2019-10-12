@@ -7,3 +7,4 @@ package-lock.json
 lint_setup.sh
 style.scss
 grid.scss
+sass
