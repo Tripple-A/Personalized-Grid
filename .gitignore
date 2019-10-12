@@ -5,3 +5,5 @@ package-lock.json
 .sass-cache
 *.map
 lint_setup.sh
+style.scss
+grid.scss
