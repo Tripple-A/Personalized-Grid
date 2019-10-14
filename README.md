@@ -7,7 +7,9 @@
 * [Ajibade Abiodun](https://github.com/Tripple-A)
 
 ### Project Goal
-The aim of this project is to design a clone of [this web page](https://getbootstrap.com/docs/4.3/examples/jumbotron/)  using a personally designed grid framework.
+
+The aim of this project is to design a clone of [this web page](https://getbootstrap.com/docs/4.3/examples/album/)  using a personally designed grid framework.
+
 
 ### Live Demo
 

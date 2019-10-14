@@ -1,0 +1,10 @@
+/node_modules
+package.json
+package-lock.json
+.stylelintrc.json
+.sass-cache
+*.map
+lint_setup.sh
+style.scss
+grid.scss
+/sass
